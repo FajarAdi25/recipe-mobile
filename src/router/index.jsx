@@ -112,7 +112,17 @@ const Router = () => {
           component={VideoRecipe}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="UpdateRecipe" component={UpdateRecipe} />
+        <Stack.Screen
+          name="UpdateRecipe"
+          component={UpdateRecipe}
+          options={{
+            title: 'Update Recipe',
+            headerTitleStyle: {
+              color: '#EEC302',
+            },
+            headerTitleAlign: 'center',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

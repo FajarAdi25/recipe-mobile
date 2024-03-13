@@ -99,82 +99,8 @@ const Update = ({ navigation, route }) => {
   };
 
   return (
-    // <ScrollView>
-    //   <View style={s.container}>
-    //     <Text style={s.title}>Update Your Recipe</Text>
-    //     <TextInput
-    //       style={s.input}
-    //       onChangeText={setTitle}
-    //       value={title}
-    //       placeholder="Title"
-    //     />
-
-    //     <TextInput
-    //       editable
-    //       multiline
-    //       numberOfLines={10}
-    //       onChangeText={text => setIngredient(text)}
-    //       value={ingredient}
-    //       placeholder="Ingredient"
-    //       style={{
-    //         textAlignVertical: 'top',
-    //         backgroundColor: 'white',
-    //         borderRadius: 10,
-    //         width: '100%',
-    //         paddingVertical: 20,
-    //         paddingHorizontal: 40,
-    //       }}
-    //     />
-
-    //     <TouchableOpacity
-    //       style={{
-    //         height: 60,
-    //         width: '100%',
-    //         backgroundColor: 'white',
-    //         borderRadius: 10,
-    //         paddingVertical: 20,
-    //         paddingHorizontal: 40,
-    //         margin: 12,
-    //       }}
-    //       onPress={() => galleryLaunch()}>
-    //       <Text style={{ color: '#ababab' }}>Change Image</Text>
-    //     </TouchableOpacity>
-
-    //     <View style={{ marginTop: 10 }}>
-    //       <Image
-    //         style={{ width: 120, height: 120 }}
-    //         resizeMode="cover"
-    //         source={response ? { uri: response.uri } : { uri: pImage }}
-    //       />
-    //     </View>
-
-    //     <TextInput
-    //       style={s.input}
-    //       onChangeText={setVideoLink}
-    //       value={videoLink}
-    //       placeholder="Video link"
-    //     />
-
-    //     <Button
-    //       style={{
-    //         height: 60,
-    //         width: 200,
-    //         borderRadius: 10,
-    //         backgroundColor: '#EFC81A',
-    //         color: 'white',
-    //         paddingTop: 17,
-    //         marginVertical: 50,
-    //       }}
-    //       onPress={() => handleSubmit()}>
-    //       UPDATE
-    //     </Button>
-    //   </View>
-    // </ScrollView>
     <ScrollView>
-      <View>
-        <Text style={styles.headers}>Update Recipe</Text>
-      </View>
-      <View>
+      <View style={{ paddingLeft: 15 }}>
         <TouchableOpacity
           style={styles.button}
           onPress={() => {

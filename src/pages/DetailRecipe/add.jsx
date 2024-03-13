@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginTop: 30,
     width: 185,
-    marginLeft: 100,
+    marginLeft: 110,
   },
   buttonText: {
     color: '#FFFFFF',
