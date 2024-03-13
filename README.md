@@ -43,14 +43,14 @@ The Mobile App repository for this project can be found on GitHub at the followi
     <td><img width="350px" src="./screenshot/3.png" border="0" alt="" /></td>
     <td><img width="350px" src="./screenshot/5.png" border="0" alt="" /></td>
   </tr>
-<!--     <tr>
-     <td>Search Page</td>
-     <td>Search Mode</td>  
+    <tr>
+     <td>My Recipe Page</td>
+     <td>Edit Profile Page</td>  
    </tr>
    <tr>
-    <td> <img width="350px" src="./screenshot/searchPage.PNG" border="0"  alt="" /></td>
-    <td> <img width="350px" src="./screenshot/searchOn.PNG" border="0"  alt="" /></td>
-  </tr> -->
+    <td> <img width="350px" src="./screenshot/11.png" border="0"  alt="" /></td>
+    <td> <img width="350px" src="./screenshot/10.png" border="0"  alt="" /></td>
+  </tr>
     <tr>
       <td>Login Page</td>
       <td>Register Page</td>
