@@ -60,12 +60,12 @@ The Mobile App repository for this project can be found on GitHub at the followi
     <td> <img width="350px" src="./screenshot/1.png" border="0"  alt="Register" /></td>
   </tr>
     <tr>
+<!--       <td>Add Recipe Page</td> -->
       <td>Add Recipe Page</td>
-      <td>Edit Recipe Page</td>
    </tr>
    <tr>
-    <td><img width="350px" src="./screenshot/4.png" border="0" alt="" /></td> 
-    <td> <img width="350px" src="./screenshot/13.png" border="0"  alt="" /></td>
+<!--     <td><img width="350px" src="./screenshot/4.png" border="0" alt="" /></td> 
+    <td> <img width="350px" src="./screenshot/13.png" border="0"  alt="" /></td> -->
   </tr>
     <tr>
       <td>Liked Page</td>
